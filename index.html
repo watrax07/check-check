@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Principal -->
+  <title>CheckAutos | Chequeo e Inspección de Autos Usados a Domicilio en Lima</title>
+  <meta name="description" content="Servicio profesional de chequeo y revisión de autos usados a domicilio en Lima. Diagnóstico mecánico, escáner, revisión legal y reporte en el mismo día antes de comprar.">
+  <meta name="keywords" content="chequeo de autos lima, revision vehicular precompra, escaneo de autos a domicilio lima, inspeccion de autos usados lima, revision mecanica pre compra">
+  <meta name="author" content="CheckAutos">
+  <meta name="robots" content="index, follow">
+
+  <!-- Metaetiquetas Geográficas (SEO Local Lima, Perú) -->
+  <meta name="geo.region" content="PE-LMA">
+  <meta name="geo.placename" content="Lima">
+  <meta name="geo.position" content="-12.046374;-77.042793">
+  <meta name="ICBM" content="-12.046374, -77.042793">
+
+  <!-- Open Graph / Redes Sociales y WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:title" content="CheckAutos | Inspección Vehicular Pre-Compra en Lima">
+  <meta property="og:description" content="Evita malas compras. Revisamos motor, escáner, pintura y antecedentes legales a domicilio en Lima antes de que pagues.">
+  <meta property="og:image" content="imgs/logo1.png">
+  <meta property="og:site_name" content="CheckAutos">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/40dc23bf69.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="imgs/logo.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+
+  <!-- Microdatos JSON-LD para IA y Motores de Búsqueda (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AutoRepair",
+        "@id": "https://checkautos.pe/#organization",
+        "name": "CheckAutos",
+        "description": "Servicio profesional de inspección, chequeo mecánico y revisión legal de autos usados a domicilio en Lima Metropolitana.",
+        "telephone": "+51959365374",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lima",
+          "addressRegion": "Lima",
+          "addressCountry": "PE"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Lima",
+          "sameAs": "https://es.wikipedia.org/wiki/Lima"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "20:00"
+        }
+      },
+      {
+        "@type": "Service",
+        "name": "Inspección Vehicular Pre-Compra",
+        "provider": { "@id": "https://checkautos.pe/#organization" },
+        "areaServed": "Lima",
+        "serviceType": "Revisión Mecánica y Legal de Autos Usados",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Servicios de Chequeo Vehicular",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Revisión Base"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Inspección Integral con Escáner Multimarca"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Acompañamiento Full y Negociación"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué incluye el servicio de chequeo e inspección de autos en Lima?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Incluye revisión mecánica completa, escáner multimarca, medición de pintura para choque oculto, revisión de suspensión, frenos, transmisión y verificación de antecedentes legales."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿En qué distritos de Lima realizan el servicio a domicilio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Atendemos a domicilio en todo Lima Metropolitana: Miraflores, San Isidro, Surco, La Molina, San Borja, Jesús María, Pueblo Libre, San Miguel y zonas aledañas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿En cuánto tiempo entregan el reporte de inspección?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El resumen ejecutivo con la recomendación directa de compra se entrega de manera inmediata al finalizar la revisión, y el reporte técnico fotográfico el mismo día."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="page-loader" id="pageLoader" aria-live="polite" aria-label="Cargando CheckAutos">
+    <div class="loader-card">
+      <img src="imgs/logo.png" alt="CheckAutos - Inspección Vehicular en Lima">
+      <div class="loader-ring"></div>
+      <p>Preparando la revisión...</p>
+    </div>
+  </div>
+
+  <div class="site-announcement" id="siteAnnouncement" role="dialog" aria-modal="true" aria-labelledby="announcementTitle">
+    <div class="announcement-card">
+      <button class="announcement-close" id="announcementClose" type="button" aria-label="Cerrar anuncio">&times;</button>
+      <span class="announcement-kicker">Lanzamiento</span>
+      <h2 id="announcementTitle">Explora nuestro nuevo sitio web</h2>
+      <p>Rediseñamos nuestra plataforma para que encuentres tu próximo auto más rápido y con mayor seguridad. Descubre nuestro catálogo actualizado, con información detallada y acompañamiento en cada paso.</p>
+      <a href="#contacto" class="announcement-button">Conocer la nueva web</a>
+    </div>
+  </div>
+
+  <div class="page-glow page-glow-one"></div>
+  <div class="page-glow page-glow-two"></div>
+
+  <a href="https://api.whatsapp.com/send?phone=51959365374&text=Hola%2C%20quiero%20informacion%20sobre%20la%20revision%20vehicular%20en%20Lima." class="float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp para revisión de auto">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+
+  <header class="header">
+    <div class="header-container">
+      <a href="#inicio" class="logo" aria-label="Ir al inicio de CheckAutos">
+        <img src="imgs/logo1.png" alt="Logo de CheckAutos Lima" class="logo-wordmark">
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link">Chequeo</a></li>
+          <li><a href="#precios" class="nav-link">Planes</a></li>
+          <li><a href="#galeria" class="nav-link">Casos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <div class="nav-menu-footer">
+          <p>Agenda una revisión a domicilio en Lima y recibe respuesta rápida por WhatsApp.</p>
+          <a href="https://api.whatsapp.com/send?phone=51959365374&text=Hola%2C%20quiero%20agendar%20una%20inspeccion." class="nav-mobile-cta" target="_blank" rel="noopener">
+            <i class="fab fa-whatsapp"></i>
+            Agendar ahora
+          </a>
+        </div>
+      </nav>
+
+      <a href="https://api.whatsapp.com/send?phone=51959365374&text=Hola%2C%20quiero%20agendar%20una%20inspeccion." class="header-cta" target="_blank" rel="noopener">
+        Agendar
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menú de navegación" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+  <div class="nav-backdrop" id="navBackdrop"></div>
+
+  <main class="container">
+    <section class="hero section-shell" id="inicio">
+      <div class="hero-unified fade-in">
+        <div class="hero-sales-card">
+          <div class="hero-copy-strip">
+            <span class="hero-kicker">Chequeo e Inspección Vehicular a Domicilio en Lima</span>
+            <h1 class="hero-title">Comprar tu auto usado en Lima con <span>seguridad total.</span></h1>
+            <p class="hero-subtitle hero-subtitle-tight">Escáner multimarca, motor, frenos, suspensión, diagnóstico de estructura y reporte legal detallado antes de pagar.</p>
+            <div class="hero-highlight-row">
+              <span><i class="fas fa-shield-halved"></i> Compra segura</span>
+              <span><i class="fas fa-user-check"></i> Mecánicos especialistas</span>
+              <span><i class="fas fa-location-dot"></i> A domicilio en Lima</span>
+            </div>
+            <div class="hero-actions">
+              <a href="https://api.whatsapp.com/send?phone=51959365374&text=Hola%2C%20quiero%20cotizar%20una%20revision%20vehicular%20en%20Lima." class="cta-button" target="_blank" rel="noopener">
+                <i class="fab fa-whatsapp"></i>
+                Cotizar por WhatsApp
+              </a>
+              <a href="#precios" class="ghost-button">Ver planes</a>
+            </div>
+          </div>
+          <div class="hero-media-stack">
+            <div class="hero-visual-title">
+              <span>Antes de transferir dinero</span>
+              <strong>Un mecánico experto revisa el auto por ti</strong>
+            </div>
+            <div class="hero-compare" data-compare>
+              <img src="imgs/chocado.png" alt="Auto chocado con reparación cosmética superficial" class="hero-compare-image">
+              <div class="hero-compare-overlay" data-compare-overlay>
+                <img src="imgs/bien.png" alt="Auto usado en buen estado en Lima" class="hero-compare-image">
+              </div>
+              <div class="hero-compare-divider" data-compare-divider>
+                <span class="hero-compare-handle">
+                  <i class="fas fa-hand-pointer"></i>
+                </span>
+              </div>
+              <input type="range" min="0" max="100" value="52" class="hero-compare-range" aria-label="Comparar auto chocado y auto en buen estado" data-compare-range>
+            </div>
+            <div class="hero-human-note">
+              <i class="fas fa-user-check"></i>
+              <p><strong>Te acompaña un especialista en Lima</strong><span>para detectar fallas y golpes ocultos.</span></p>
+            </div>
+            <div class="hero-media-badges">
+              <span><i class="fas fa-screwdriver-wrench"></i> Mecánica</span>
+              <span><i class="fas fa-scale-balanced"></i> Informe Legal</span>
+              <span><i class="fas fa-camera"></i> Fotos y Video</span>
+            </div>
+          </div>
+        </div>
+        <a href="#video-principal" class="hero-scroll-cue" aria-label="Desplazarse hacia abajo">
+          <i class="fas fa-arrow-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="video-principal section-shell fade-in" id="video-principal">
+      <div class="section-heading section-heading-left">
+        <span class="eyebrow">Prueba de trabajo en Lima</span>
+        <h2 class="section-title">Mira una inspección técnica real en acción.</h2>
+        <p class="section-subtitle">Diagnóstico directo en el lugar del auto, con evidencia clara antes de cerrar la compra.</p>
+      </div>
+      <div class="video-principal-layout">
+        <div class="video-principal-wrapper">
+          <div class="video-device-bar">
+            <span class="recording-dot"></span>
+            <strong>CheckAutos Lima</strong>
+            <small>HD</small>
+          </div>
+          <video id="mainVideo" class="video-vertical" controls poster="portada/p1.png" preload="metadata" playsinline>
+            <source src="videos/principal.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+          </video>
+          <div class="video-scan-line"></div>
+          <div class="video-play-overlay" id="playOverlay">
+            <div class="play-orb">
+              <span class="play-ripple ripple-one"></span>
+              <span class="play-ripple ripple-two"></span>
+              <span class="play-core">
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
+            <div class="play-overlay-copy">
+              <strong>Ver inspección real</strong>
+              <span>Mira cómo detectamos fallas mecánicas en Lima.</span>
+            </div>
+          </div>
+          <div class="video-bottom-badge">
+            <i class="fas fa-video"></i>
+            Diagnóstico en terreno
+          </div>
+        </div>
+        <div class="video-side-card">
+          <div class="video-panel-heading">
+            <span>En el chequeo revisamos</span>
+            <strong>Evaluación transparente</strong>
+          </div>
+          <div class="step-mini">
+            <span><i class="fas fa-car-burst"></i></span>
+            <p>Estructura, chasis, pintura y golpes ocultos.</p>
+          </div>
+          <div class="step-mini">
+            <span><i class="fas fa-microchip"></i></span>
+            <p>Escáner de motor, transmisión, airbags y frenos ABS.</p>
+          </div>
+          <div class="step-mini">
+            <span><i class="fas fa-clipboard-check"></i></span>
+            <p>Dictamen directo: te decimos si conviene, cuánto negociar o si debes descartarlo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section-shell" id="servicios">
+      <div class="section-heading">
+        <span class="eyebrow">Servicios Integrales</span>
+        <h2 class="section-title">Chequeo vehicular completo en Lima.</h2>
+        <p class="section-subtitle">Evaluamos los puntos que causan las reparaciones más costosas.</p>
+      </div>
+      <div class="features-grid">
+        <article class="feature fade-in">
+          <div class="feature-icon">
+            <img src="imgs/report.png" alt="Reporte visual de chequeo de autos">
+          </div>
+          <h3>Reporte Fotográfico y Técnico</h3>
+          <p>Informe detallado con fotografías, fallas detectadas y conclusión ejecutiva para decidir tu compra.</p>
+          <div class="feature-meta">
+            <span>Transparente</span>
+            <span>Inmediato</span>
+          </div>
+        </article>
+        <article class="feature fade-in">
+          <div class="feature-icon">
+            <img src="imgs/warranty.png" alt="Revisión legal de autos en Lima">
+          </div>
+          <h3>Revisión Legal y Anticipos</h3>
+          <p>Verificación de requisitorias, orden de captura, embargos e historial de propietarios en Perú.</p>
+          <div class="feature-meta">
+            <span>SUNARP/SAT</span>
+            <span>Sin riesgos</span>
+          </div>
+        </article>
+        <article class="feature fade-in">
+          <div class="feature-icon">
+            <img src="imgs/sector-automotriz.png" alt="Diagnóstico mecánico a domicilio Lima">
+          </div>
+          <h3>Diagnóstico Mecánico y Escáner</h3>
+          <p>Escaneo electrónico multimarca, prueba de compresión, análisis de motor, caja y sistemas de seguridad.</p>
+          <div class="feature-meta">
+            <span>Multimarca</span>
+            <span>A Domicilio</span>
+          </div>
+        </article>
+        <article class="feature fade-in">
+          <div class="feature-icon">
+            <i class="fas fa-spray-can-sparkles" aria-hidden="true"></i>
+          </div>
+          <h3>Medición de Pintura y Estructura</h3>
+          <p>Uso de medidor de espesor de pintura para identificar masillados, repintados y choques no declarados.</p>
+          <div class="feature-meta">
+            <span>Chasis</span>
+            <span>Estructura</span>
+          </div>
+        </article>
+        <article class="feature fade-in">
+          <div class="feature-icon">
+            <i class="fas fa-shield-cat" aria-hidden="true"></i>
+          </div>
+          <h3>Cerradura Antirrobo para Capot</h3>
+          <p>Sistemas de protección física para evitar el robo de batería, computadora (ECU) y componentes en Lima.</p>
+          <div class="feature-meta">
+            <span>Seguridad</span>
+            <span>Instalación</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="process section-shell" id="proceso">
+      <div class="section-heading section-heading-left">
+        <span class="eyebrow">Pasos del Servicio</span>
+        <h2 class="section-title">¿Cómo funciona la inspección pre-compra?</h2>
+      </div>
+      <div class="process-grid">
+        <article class="process-card fade-in">
+          <span class="process-number">01</span>
+          <h3>Coordinación por WhatsApp</h3>
+          <p>Envíanos el enlace del anuncio o la ubicación del vendedor en Lima.</p>
+        </article>
+        <article class="process-card fade-in">
+          <span class="process-number">02</span>
+          <h3>Inspección In Situ</h3>
+          <p>Un técnico especializado acude a revisar el auto en el punto fijado.</p>
+        </article>
+        <article class="process-card fade-in">
+          <span class="process-number">03</span>
+          <h3>Dictamen y Reporte</h3>
+          <p>Recibes el diagnóstico completo, fotos de evidencias y el monto estimado de reparaciones.</p>
+        </article>
+        <article class="process-card fade-in">
+          <span class="process-number">04</span>
+          <h3>Compra o Negociación</h3>
+          <p>Usa la información técnica para negociar un descuento o descartar una mala unidad.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="pricing section-shell" id="precios">
+      <div class="section-heading">
+        <span class="eyebrow">Servicios y Planes en Lima</span>
+        <h2 class="section-title">Elige la cobertura que necesitas.</h2>
+        <p class="section-subtitle">Tarifas transparentes para revisar tu próximo vehículo.</p>
+      </div>
+      <div class="pricing-controls">
+        <button class="gallery-control-btn prev-price" aria-label="Servicio anterior">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="pricing-dots"></div>
+        <button class="gallery-control-btn next-price" aria-label="Siguiente servicio">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="pricing-carousel-shell">
+        <div class="pricing-wrapper">
+          <div class="pricing-grid pricing-track">
+            <article class="price-card fade-in">
+              <div class="price-card-top">
+                <span class="price-label">Básico</span>
+                <h3>Revisión Base</h3>
+                <p>Ideal para descartar fallas evidentes de forma rápida.</p>
+              </div>
+              <div class="price-note">Cotización rápida por WhatsApp</div>
+              <ul class="price-list">
+                <li><i class="fas fa-check"></i> Inspección visual estética exterior e interior</li>
+                <li><i class="fas fa-check"></i> Verificación básica de motor y fluidos</li>
+                <li><i class="fas fa-check"></i> Dictamen verbal inmediato por WhatsApp</li>
+              </ul>
+              <a href="https://api.whatsapp.com/send?phone=51959365374&text=Hola%2C%20quiero%20la%20Revision%20Base%20en%20Lima." class="price-button" target="_blank" rel="noopener">Elegir plan</a>
+            </article>
+
+            <article class="price-card featured fade-in">
+              <div class="price-ribbon">Más Popular</div>
+              <div class="price-card-top">
+                <span class="price-label">Recomendado</span>
+                <h3>Inspección Integral</h3>
+                <p>La evaluación más completa antes de comprar en Lima.</p>
+              </div>
+              <div class="price-note">Cotización personalizada</div>
+              <ul class="price-list">
+                <li><i class="fas fa-check"></i> Escaneo multimarca (Motor, ABS, Airbag, Transmisión)</li>
+                <li><i class="fas fa-check"></i> Medición de espesor de pintura (Detección de masilla)</li>
+                <li><i class="fas fa-check"></i> Verificación legal de antecedentes y multas</li>
+                <li><i class="fas fa-check"></i> Reporte técnico fotográfico en PDF</li>
+              </ul>
+              <a href="https://api.whatsapp.com/send?phone=51959365374&text=Hola%2C%20quiero%20la%20Inspeccion%20Integral%20en%20Lima." class="price-button" target="_blank" rel="noopener">Quiero este plan</a>
+            </article>
+
+            <article class="price-card fade-in">
+              <div class="price-card-top">
+                <span class="price-label">VIP</span>
+                <h3>Acompañamiento Full</h3>
+                <p>Para compras exigentes o vehículos de alta gama.</p>
+              </div>
+              <div class="price-note">Cotización personalizada</div>
+              <ul class="price-list">
+                <li><i class="fas fa-check"></i> Todo lo incluido en el Plan Integral</li>
+                <li><i class="fas fa-check"></i> Prueba de manejo técnica guiada</li>
+                <li><i class="fas fa-check"></i> Asesoría presencial para negociación de precio</li>
+                <li><i class="fas fa-check"></i> Prioridad inmediata de agenda en Lima</li>
+              </ul>
+              <a href="https://api.whatsapp.com/send?phone=51959365374&text=Hola%2C%20quiero%20el%20Acompanamiento%20Full%20en%20Lima." class="price-button" target="_blank" rel="noopener">Solicitar plan VIP</a>
+            </article>
+
+            <article class="price-card fade-in">
+              <div class="price-card-top">
+                <span class="price-label">Estética</span>
+                <h3>Pintura y Carrocería</h3>
+                <p>Servicio de retoque y corrección de pintura profesional.</p>
+              </div>
+              <div class="price-note">Cotización personalizada</div>
+              <ul class="price-list">
+                <li><i class="fas fa-check"></i> Evaluación de tono y coincidencia de color</li>
+                <li><i class="fas fa-check"></i> Corrección de rayones y abolladuras</li>
+                <li><i class="fas fa-check"></i> Asesoría según daño estructural</li>
+              </ul>
+              <a href="https://api.whatsapp.com/send?phone=51959365374&text=Hola%2C%20quiero%20cotizar%20Pintura%20de%20Auto." class="price-button" target="_blank" rel="noopener">Cotizar pintura</a>
+            </article>
+
+            <article class="price-card fade-in">
+              <div class="price-card-top">
+                <span class="price-label">Protección</span>
+                <h3>Seguro Antirrobo de Capot</h3>
+                <p>Protege la computadora y componentes en Lima.</p>
+              </div>
+              <div class="price-note">Cotización personalizada</div>
+              <ul class="price-list">
+                <li><i class="fas fa-check"></i> Instalación de guaya / cadena reforzada</li>
+                <li><i class="fas fa-check"></i> Ajuste según marca y modelo vehicular</li>
+                <li><i class="fas fa-check"></i> Prueba de resistencia in situ</li>
+              </ul>
+              <a href="https://api.whatsapp.com/send?phone=51959365374&text=Hola%2C%20quiero%20cotizar%20cerradura%20antirrobo%20para%20capot." class="price-button" target="_blank" rel="noopener">Cotizar seguridad</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reference section-shell" id="galeria">
+      <div class="section-heading">
+        <span class="eyebrow">Evidencias en Lima</span>
+        <h2 class="section-title">Hallazgos reales en inspecciones de autos.</h2>
+        <p class="section-subtitle">Casos donde nuestros clientes evitaron estafas o gastos de reparación elevados.</p>
+      </div>
+
+      <div class="gallery-controls">
+        <button class="gallery-control-btn prev-slide" aria-label="Anterior caso">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="gallery-dots"></div>
+        <button class="gallery-control-btn next-slide" aria-label="Siguiente caso">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="gallery-carousel-shell">
+        <div class="gallery-status">
+          <span class="gallery-kicker">Fallas detectadas en autos inspeccionados en Lima</span>
+          <span class="gallery-mode">Carrusel interactivo</span>
+        </div>
+        <div class="gallery-wrapper">
+          <div class="gallery">
+            <div class="gallery-item fade-in" data-title="Daño estructural oculto" data-description="Choque frontal severo no declarado con masilla superficial detectado en Surco.">
+              <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span class="gallery-title">Ver detalles</span>
+              </div>
+              <img src="imgs/carro1.jpeg" alt="Auto usado con daño estructural oculto en Lima" data-index="0">
+              <div class="gallery-info">
+                <h4>Daño estructural</h4>
+                <p>Choque no declarado</p>
+              </div>
+            </div>
+
+            <div class="gallery-item fade-in" data-title="Falla crítica en motor" data-description="Fuga interna de compresión detectada durante el escaneo." data-video="true">
+              <div class="gallery-overlay">
+                <i class="fas fa-play-circle"></i>
+                <span class="gallery-title">Reproducir video</span>
+              </div>
+              <video data-index="1" poster="portada/v1.png" preload="metadata">
+                <source src="videos/issue1.mp4" type="video/mp4">
+              </video>
+              <div class="video-play-icon">
+                <i class="fas fa-play"></i>
+              </div>
+              <div class="gallery-info">
+                <h4>Falla de motor</h4>
+                <p>Daño interno detectado</p>
+              </div>
+            </div>
+
+            <div class="gallery-item fade-in" data-title="Número de chasis alterado" data-description="Inconsistencia documental y sospecha de clonación detectada en revisión legal.">
+              <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span class="gallery-title">Ver detalles</span>
+              </div>
+              <img src="imgs/carro2.jpeg" alt="Revisión legal de auto usado en Lima" data-index="2">
+              <div class="gallery-info">
+                <h4>Serie alterada</h4>
+                <p>Riesgo legal grave</p>
+              </div>
+            </div>
+
+            <div class="gallery-item fade-in" data-title="Frenos desgastados al límite" data-description="Discos de freno fisurados y pastillas sin vida útil restante." data-video="true">
+              <div class="gallery-overlay">
+                <i class="fas fa-play-circle"></i>
+                <span class="gallery-title">Reproducir video</span>
+              </div>
+              <video data-index="3" poster="portada/v2.png" preload="metadata">
+                <source src="videos/issue2.mp4" type="video/mp4">
+              </video>
+              <div class="video-play-icon">
+                <i class="fas fa-play"></i>
+              </div>
+              <div class="gallery-info">
+                <h4>Frenos defectuosos</h4>
+                <p>Riesgo de seguridad</p>
+              </div>
+            </div>
+
+            <div class="gallery-item fade-in" data-title="Repintado por choque lateral" data-description="Uso del medidor de pintura revela más de 800 micras de masilla.">
+              <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span class="gallery-title">Ver detalles</span>
+              </div>
+              <img src="imgs/carro4.jpeg" alt="Medición de pintura en auto usado" data-index="4">
+              <div class="gallery-info">
+                <h4>Pintura masillada</h4>
+                <p>Golpe oculto</p>
+              </div>
+            </div>
+
+            <div class="gallery-item fade-in" data-title="Falla en suspensión y amortiguadores" data-description="Amortiguadores reventados con fuga de aceite activa." data-video="true">
+              <div class="gallery-overlay">
+                <i class="fas fa-play-circle"></i>
+                <span class="gallery-title">Reproducir video</span>
+              </div>
+              <video data-index="5" poster="portada/v3.png" preload="metadata">
+                <source src="videos/issue 3.mp4" type="video/mp4">
+              </video>
+              <div class="video-play-icon">
+                <i class="fas fa-play"></i>
+              </div>
+              <div class="gallery-info">
+                <h4>Suspensión dañada</h4>
+                <p>Gasto alto en reparación</p>
+              </div>
+            </div>
+
+            <div class="gallery-item fade-in" data-title="Reparación deficiente de chasis" data-description="Soldaduras artesanales en puntos de deformación programada.">
+              <div class="gallery-overlay">
+                <i class="fas fa-search-plus"></i>
+                <span class="gallery-title">Ver detalles</span>
+              </div>
+              <img src="imgs/carro 3.jpeg" alt="Inspección de chasis en auto usado Lima" data-index="6">
+              <div class="gallery-info">
+                <h4>Chasis soldado</h4>
+                <p>Peligro estructural</p>
+              </div>
+            </div>
+
+            <div class="gallery-item fade-in" data-title="Cortocircuito en sistema eléctrico" data-description="Alteraciones artesanales en el cableado de la computadora principal." data-video="true">
+              <div class="gallery-overlay">
+                <i class="fas fa-play-circle"></i>
+                <span class="gallery-title">Reproducir video</span>
+              </div>
+              <video data-index="7" poster="portada/v4.png" preload="metadata">
+                <source src="videos/issue4.mp4" type="video/mp4">
+              </video>
+              <div class="video-play-icon">
+                <i class="fas fa-play"></i>
+              </div>
+              <div class="gallery-info">
+                <h4>Sistema eléctrico</h4>
+                <p>Fallas ocultas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+      <button class="lightbox-close" aria-label="Cerrar ventana">&times;</button>
+      <button class="lightbox-prev" aria-label="Caso anterior">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="lightbox-next" aria-label="Caso siguiente">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      <div class="lightbox-content">
+        <div class="lightbox-media"></div>
+        <div class="lightbox-caption">
+          <h3 class="lightbox-title"></h3>
+          <p class="lightbox-description"></p>
+        </div>
+      </div>
+      <div class="lightbox-counter"></div>
+    </div>
+
+    <section class="reviews section-shell" id="resenas">
+      <div class="section-heading">
+        <span class="eyebrow">Opiniones Reales</span>
+        <h2 class="section-title">Compradores en Lima que confiaron en CheckAutos.</h2>
+      </div>
+      <div class="review-slider fade-in">
+        <div class="review-track">
+          <article class="review">
+            <div class="quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="review-header">
+              <div class="user-avatar">
+                <img src="imgs/persona1.jpg" alt="Cliente de CheckAutos Gabriel Montaño">
+              </div>
+              <div class="user-info">
+                <h3>Gabriel Jesús Montaño</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>"Excelente atención a domicilio en Surco. Me ayudaron a elegir un vehículo sin sorpresas mecánicas. Muy recomendado."</p>
+          </article>
+          <article class="review">
+            <div class="quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="review-header">
+              <div class="user-avatar">
+                <img src="https://storage.googleapis.com/a1aa/image/gRHrCrgkUD6KIBHLAhGtpbjb3xev2ZpfGAHD7qkq7eDCNvwnA.jpg" alt="Cliente Álvaro Cruz">
+              </div>
+              <div class="user-info">
+                <h3>Álvaro Cruz</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>"Evitó que comprara un auto en Miraflores que tenía un choque grave oculto. El costo del chequeo me ahorró miles de soles."</p>
+          </article>
+          <article class="review">
+            <div class="quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="review-header">
+              <div class="user-avatar">
+                <img src="imgs/persona1.jpg" alt="Cliente Mariela Paredes">
+              </div>
+              <div class="user-info">
+                <h3>Mariela Paredes</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>"Pensaba cerrar la compra ese mismo día. Encontraron fallas en el motor y caja que el vendedor no mencionó."</p>
+          </article>
+          <article class="review">
+            <div class="quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="review-header">
+              <div class="user-avatar">
+                <img src="https://storage.googleapis.com/a1aa/image/gRHrCrgkUD6KIBHLAhGtpbjb3xev2ZpfGAHD7qkq7eDCNvwnA.jpg" alt="Cliente Luis Fernández">
+              </div>
+              <div class="user-info">
+                <h3>Luis Fernández</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p>"El reporte técnico fue tan claro que pude negociar un descuento de $800 dólares con el vendedor."</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Optimizado para Google y Motores de IA -->
+    <section class="faq section-shell" id="faq">
+      <div class="section-heading section-heading-left">
+        <span class="eyebrow">Preguntas Frecuentes</span>
+        <h2 class="section-title">Resuelve tus dudas sobre el servicio de revisión vehicular en Lima.</h2>
+      </div>
+      <div class="faq-list">
+        <article class="faq-item fade-in">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Qué incluye exactamente la inspección e investigación del auto?</span>
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Incluye escaneo electrónico de módulos (motor, transmisión, frenos ABS, airbags), medición del grosor de pintura para identificar choques, inspección de chasis, suspensión, fuga de fluidos, prueba de manejo y verificación de deudas/requisitorias legales en Lima.</p>
+          </div>
+        </article>
+        <article class="faq-item fade-in">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Ustedes se desplazan a cualquier distrito de Lima?</span>
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Sí, nos desplazamos a domicilio, cocheras o centros comerciales en todo Lima Metropolitana (Miraflores, San Isidro, Surco, La Molina, San Borja, Los Olivos, San Miguel, entre otros).</p>
+          </div>
+        </article>
+        <article class="faq-item fade-in">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Me ayudan a negociar el precio con el vendedor?</span>
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Sí. Con nuestro reporte técnico te indicamos el valor estimado de las reparaciones requeridas para que puedas sustentar una rebaja justa en el precio final del vehículo.</p>
+          </div>
+        </article>
+        <article class="faq-item fade-in">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿En cuánto tiempo entregan el informe final?</span>
+            <i class="fas fa-plus"></i>
+          </button>
+          <div class="faq-answer">
+            <p>El mecánico te dará una recomendación verbal inmediata al terminar el chequeo. El reporte en PDF con las fotos explicativas y detalles técnicos se entrega el mismo día.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-band fade-in">
+      <div>
+        <span class="eyebrow">Compra con Seguridad</span>
+        <h2>No arriesgues tu dinero en un auto usado sin revisar.</h2>
+        <p>Agenda hoy tu inspección a domicilio en Lima por WhatsApp.</p>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=51959365374&text=Hola%2C%20quiero%20agendar%20mi%20inspeccion%20en%20Lima." class="cta-button" target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i>
+        Agendar inspección
+      </a>
+    </section>
+  </main>
+
+  <footer class="pie-pagina" id="contacto">
+    <div class="grupo-1">
+      <div class="box brand-box">
+        <figure>
+          <a href="#inicio" class="rueda">
+            <img src="imgs/logo.png" alt="Logo de CheckAutos Lima">
+          </a>
+        </figure>
+        <p>Servicio especializado de chequeo, escáner e inspección pre-compra de autos usados a domicilio en Lima, Perú.</p>
+      </div>
+
+      <div class="box">
+        <h2>Contacto</h2>
+        <p>Atención directa por WhatsApp para coordinar la revisión de tu vehículo en Lima.</p>
+        <a class="footer-link" href="https://api.whatsapp.com/send?phone=51959365374" target="_blank" rel="noopener">+51 959 365 374</a>
+      </div>
+
+      <div class="box">
+        <h2>Redes Sociales</h2>
+        <div class="red-social">
+          <a href="#" class="fa fa-facebook" aria-label="Síguenos en Facebook"></a>
+          <a href="#" class="fa fa-instagram" aria-label="Síguenos en Instagram"></a>
+          <a href="https://api.whatsapp.com/send?phone=51959365374" class="fa fa-whatsapp" aria-label="Contáctanos por WhatsApp"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grupo-2">
+      <small>&copy; 2026 <b>CheckAutos</b> - Inspección Vehicular en Lima, Perú. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('navMenu');
+    const navBackdrop = document.getElementById('navBackdrop');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const header = document.querySelector('.header');
+    const floatButton = document.querySelector('.float');
+    const heroScrollCue = document.querySelector('.hero-scroll-cue');
+    const pageLoader = document.getElementById('pageLoader');
+    const siteAnnouncement = document.getElementById('siteAnnouncement');
+    const announcementClose = document.getElementById('announcementClose');
+
+    function hidePageLoader() {
+      if (!pageLoader) return;
+      pageLoader.classList.add('is-leaving');
+      setTimeout(() => {
+        pageLoader.classList.add('hidden');
+      }, 420);
+    }
+
+    function showAnnouncement() {
+      if (!siteAnnouncement) return;
+      siteAnnouncement.classList.remove('closing');
+      siteAnnouncement.classList.add('active');
+      document.body.classList.add('nav-open');
+    }
+
+    function closeAnnouncement() {
+      if (!siteAnnouncement) return;
+      siteAnnouncement.classList.add('closing');
+      setTimeout(() => {
+        siteAnnouncement.classList.remove('active', 'closing');
+        document.body.classList.remove('nav-open');
+      }, 320);
+    }
+
+    window.addEventListener('load', () => {
+      setTimeout(hidePageLoader, 250);
+      setTimeout(showAnnouncement, 650);
+    });
+
+    setTimeout(hidePageLoader, 2600);
+
+    if (announcementClose) {
+      announcementClose.addEventListener('click', closeAnnouncement);
+    }
+
+    if (siteAnnouncement) {
+      siteAnnouncement.addEventListener('click', (event) => {
+        if (event.target === siteAnnouncement) closeAnnouncement();
+      });
+      siteAnnouncement.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', closeAnnouncement);
+      });
+    }
+
+    function setMenuState(isOpen) {
+      hamburger.classList.toggle('active', isOpen);
+      navMenu.classList.toggle('active', isOpen);
+      navBackdrop.classList.toggle('active', isOpen);
+      document.body.classList.toggle('nav-open', isOpen);
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+    }
+
+    hamburger.addEventListener('click', () => {
+      const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+      setMenuState(!isExpanded);
+    });
+
+    navLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        setMenuState(false);
+      });
+    });
+
+    navBackdrop.addEventListener('click', () => setMenuState(false));
+
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener('click', function (event) {
+        event.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: window.innerWidth <= 768 ? 0.06 : 0.15,
+      rootMargin: window.innerWidth <= 768 ? '0px 0px -10px 0px' : '0px 0px -40px 0px'
+    });
+
+    document.querySelectorAll('.fade-in').forEach((element) => observer.observe(element));
+
+    function handleHeaderState() {
+      if (window.pageYOffset > 40) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+
+      if (heroScrollCue) {
+        heroScrollCue.classList.toggle('hidden', window.pageYOffset > 12);
+      }
+    }
+
+    window.addEventListener('scroll', handleHeaderState);
+    handleHeaderState();
+
+    setInterval(() => {
+      floatButton.classList.add('pulse');
+      setTimeout(() => floatButton.classList.remove('pulse'), 900);
+    }, 3200);
+
+    const mainVideo = document.getElementById('mainVideo');
+    const playOverlay = document.getElementById('playOverlay');
+
+    if (playOverlay) {
+      playOverlay.addEventListener('click', () => {
+        mainVideo.play();
+        playOverlay.style.opacity = '0';
+        playOverlay.style.pointerEvents = 'none';
+      });
+
+      mainVideo.addEventListener('play', () => {
+        playOverlay.style.opacity = '0';
+        playOverlay.style.pointerEvents = 'none';
+      });
+
+      mainVideo.addEventListener('pause', () => {
+        playOverlay.style.opacity = '1';
+        playOverlay.style.pointerEvents = 'all';
+      });
+    }
+
+    const compare = document.querySelector('[data-compare]');
+    const compareOverlay = document.querySelector('[data-compare-overlay]');
+    const compareDivider = document.querySelector('[data-compare-divider]');
+    const compareRange = document.querySelector('[data-compare-range]');
+    let compareAnimationFrame;
+    let compareDirection = 1;
+    let compareValue = compareRange ? Number(compareRange.value) : 52;
+    let compareAutoplay = true;
+
+    function updateCompare(value) {
+      if (!compare || !compareDivider) return;
+      compare.style.setProperty('--compare-pos', `${value}%`);
+      compareDivider.style.left = `${value}%`;
+    }
+
+    function updateCompareFromPointer(clientX) {
+      if (!compare || !compareRange) return;
+      const rect = compare.getBoundingClientRect();
+      const raw = ((clientX - rect.left) / rect.width) * 100;
+      const value = Math.max(0, Math.min(100, raw));
+      compareValue = value;
+      compareRange.value = value;
+      updateCompare(value);
+    }
+
+    function stepCompareAutoplay() {
+      if (!compareAutoplay || !compareRange) return;
+      const isMobileCompare = window.innerWidth <= 768;
+      const compareStep = isMobileCompare ? 0.28 : 0.18;
+      const maxCompare = isMobileCompare ? 82 : 78;
+      const minCompare = isMobileCompare ? 20 : 24;
+      compareValue += compareDirection * compareStep;
+      if (compareValue >= maxCompare) compareDirection = -1;
+      if (compareValue <= minCompare) compareDirection = 1;
+      compareRange.value = compareValue;
+      updateCompare(compareValue);
+      compareAnimationFrame = requestAnimationFrame(stepCompareAutoplay);
+    }
+
+    function stopCompareAutoplay() {
+      compareAutoplay = false;
+      if (compareAnimationFrame) cancelAnimationFrame(compareAnimationFrame);
+    }
+
+    if (compareRange) {
+      updateCompare(compareRange.value);
+      compareRange.addEventListener('input', (event) => {
+        compareValue = Number(event.target.value);
+        stopCompareAutoplay();
+        updateCompare(event.target.value);
+      });
+      compareRange.addEventListener('pointerdown', stopCompareAutoplay);
+      compareRange.addEventListener('touchstart', stopCompareAutoplay, { passive: true });
+      compareAnimationFrame = requestAnimationFrame(stepCompareAutoplay);
+    }
+
+    if (compare) {
+      let compareDragging = false;
+
+      compare.addEventListener('pointerdown', (event) => {
+        compareDragging = true;
+        stopCompareAutoplay();
+        updateCompareFromPointer(event.clientX);
+      });
+
+      compare.addEventListener('pointermove', (event) => {
+        if (!compareDragging) return;
+        updateCompareFromPointer(event.clientX);
+      });
+
+      compare.addEventListener('pointerup', () => {
+        compareDragging = false;
+      });
+
+      compare.addEventListener('pointerleave', () => {
+        compareDragging = false;
+      });
+
+      compare.addEventListener('touchstart', (event) => {
+        const touch = event.touches[0];
+        if (!touch) return;
+        compareDragging = true;
+        stopCompareAutoplay();
+        updateCompareFromPointer(touch.clientX);
+      }, { passive: true });
+
+      compare.addEventListener('touchmove', (event) => {
+        if (!compareDragging) return;
+        const touch = event.touches[0];
+        if (!touch) return;
+        updateCompareFromPointer(touch.clientX);
+      }, { passive: true });
+
+      compare.addEventListener('touchend', () => {
+        compareDragging = false;
+      });
+    }
+
+    let currentSlide = 0;
+    const gallery = document.querySelector('.gallery');
+    const galleryItemsAll = document.querySelectorAll('.gallery-item');
+    const prevSlideBtn = document.querySelector('.prev-slide');
+    const nextSlideBtn = document.querySelector('.next-slide');
+    const dotsContainer = document.querySelector('.gallery-dots');
+    let galleryAutoplay;
+
+    let dots = [];
+
+    function getVisibleItems() {
+      if (window.innerWidth <= 768) return 1;
+      if (window.innerWidth <= 1180) return 2;
+      return 3;
+    }
+
+    function getMaxSlideIndex() {
+      return Math.max(0, galleryItemsAll.length - getVisibleItems());
+    }
+
+    function rebuildDots() {
+      if (!dotsContainer) return;
+      dotsContainer.innerHTML = '';
+      for (let index = 0; index <= getMaxSlideIndex(); index += 1) {
+        const dot = document.createElement('span');
+        dot.classList.add('dot');
+        if (index === currentSlide) dot.classList.add('active');
+        dot.addEventListener('click', () => goToSlide(index));
+        dotsContainer.appendChild(dot);
+      }
+      dots = Array.from(dotsContainer.querySelectorAll('.dot'));
+    }
+
+    function updateCarousel() {
+      const maxIndex = getMaxSlideIndex();
+      if (currentSlide > maxIndex) currentSlide = maxIndex;
+      const targetItem = galleryItemsAll[currentSlide];
+      const offset = targetItem ? targetItem.offsetLeft : 0;
+      gallery.style.transform = `translateX(-${offset}px)`;
+      dots.forEach((dot, index) => dot.classList.toggle('active', index === currentSlide));
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      updateCarousel();
+    }
+
+    function nextSlide() {
+      const maxIndex = getMaxSlideIndex();
+      currentSlide = currentSlide >= maxIndex ? 0 : currentSlide + 1;
+      updateCarousel();
+    }
+
+    function prevSlide() {
+      const maxIndex = getMaxSlideIndex();
+      currentSlide = currentSlide <= 0 ? maxIndex : currentSlide - 1;
+      updateCarousel();
+    }
+
+    function startGalleryAutoplay() {
+      clearInterval(galleryAutoplay);
+      galleryAutoplay = setInterval(() => {
+        if (window.innerWidth > 768) nextSlide();
+      }, 3200);
+    }
+
+    if (prevSlideBtn) prevSlideBtn.addEventListener('click', prevSlide);
+    if (nextSlideBtn) nextSlideBtn.addEventListener('click', nextSlide);
+
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    gallery.addEventListener('touchstart', (event) => {
+      touchStartX = event.changedTouches[0].screenX;
+    });
+
+    gallery.addEventListener('touchend', (event) => {
+      touchEndX = event.changedTouches[0].screenX;
+      if (window.innerWidth <= 768) {
+        if (touchStartX - touchEndX > 50) nextSlide();
+        if (touchEndX - touchStartX > 50) prevSlide();
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 900) setMenuState(false);
+      rebuildDots();
+      updateCarousel();
+      startGalleryAutoplay();
+      rebuildPricingDots();
+      updatePricingCarousel();
+      startPricingAutoplay();
+    });
+    rebuildDots();
+    updateCarousel();
+    startGalleryAutoplay();
+    gallery.addEventListener('mouseenter', () => clearInterval(galleryAutoplay));
+    gallery.addEventListener('mouseleave', startGalleryAutoplay);
+
+    let currentPriceSlide = 0;
+    const pricingTrack = document.querySelector('.pricing-track');
+    const pricingCards = Array.from(document.querySelectorAll('.pricing-track .price-card'));
+    const prevPriceBtn = document.querySelector('.prev-price');
+    const nextPriceBtn = document.querySelector('.next-price');
+    const pricingDotsContainer = document.querySelector('.pricing-dots');
+    let pricingAutoplay;
+    let pricingDots = [];
+
+    function getVisiblePricingCards() {
+      if (window.innerWidth <= 768) return 1;
+      if (window.innerWidth <= 1180) return 2;
+      return 3;
+    }
+
+    function getMaxPricingIndex() {
+      return Math.max(0, pricingCards.length - getVisiblePricingCards());
+    }
+
+    function rebuildPricingDots() {
+      if (!pricingDotsContainer) return;
+      pricingDotsContainer.innerHTML = '';
+      for (let index = 0; index <= getMaxPricingIndex(); index += 1) {
+        const dot = document.createElement('span');
+        dot.classList.add('dot');
+        if (index === currentPriceSlide) dot.classList.add('active');
+        dot.addEventListener('click', () => goToPriceSlide(index));
+        pricingDotsContainer.appendChild(dot);
+      }
+      pricingDots = Array.from(pricingDotsContainer.querySelectorAll('.dot'));
+    }
+
+    function updatePricingCarousel() {
+      if (!pricingTrack || pricingCards.length === 0) return;
+      const maxIndex = getMaxPricingIndex();
+      if (currentPriceSlide > maxIndex) currentPriceSlide = maxIndex;
+      const targetCard = pricingCards[currentPriceSlide];
+      const offset = targetCard ? targetCard.offsetLeft : 0;
+      pricingTrack.style.transform = `translateX(-${offset}px)`;
+      pricingDots.forEach((dot, index) => dot.classList.toggle('active', index === currentPriceSlide));
+    }
+
+    function goToPriceSlide(index) {
+      currentPriceSlide = index;
+      updatePricingCarousel();
+    }
+
+    function nextPriceSlide() {
+      const maxIndex = getMaxPricingIndex();
+      currentPriceSlide = currentPriceSlide >= maxIndex ? 0 : currentPriceSlide + 1;
+      updatePricingCarousel();
+    }
+
+    function prevPriceSlide() {
+      const maxIndex = getMaxPricingIndex();
+      currentPriceSlide = currentPriceSlide <= 0 ? maxIndex : currentPriceSlide - 1;
+      updatePricingCarousel();
+    }
+
+    function startPricingAutoplay() {
+      clearInterval(pricingAutoplay);
+      pricingAutoplay = setInterval(nextPriceSlide, 3400);
+    }
+
+    if (prevPriceBtn) prevPriceBtn.addEventListener('click', prevPriceSlide);
+    if (nextPriceBtn) nextPriceBtn.addEventListener('click', nextPriceSlide);
+
+    let pricingTouchStartX = 0;
+    let pricingTouchEndX = 0;
+
+    if (pricingTrack) {
+      pricingTrack.addEventListener('touchstart', (event) => {
+        pricingTouchStartX = event.changedTouches[0].screenX;
+      });
+
+      pricingTrack.addEventListener('touchend', (event) => {
+        pricingTouchEndX = event.changedTouches[0].screenX;
+        if (pricingTouchStartX - pricingTouchEndX > 50) nextPriceSlide();
+        if (pricingTouchEndX - pricingTouchStartX > 50) prevPriceSlide();
+      });
+
+      pricingTrack.addEventListener('mouseenter', () => clearInterval(pricingAutoplay));
+      pricingTrack.addEventListener('mouseleave', startPricingAutoplay);
+    }
+
+    rebuildPricingDots();
+    updatePricingCarousel();
+    startPricingAutoplay();
+
+    const lightbox = document.getElementById('lightbox');
+    const lightboxMedia = document.querySelector('.lightbox-media');
+    const lightboxTitle = document.querySelector('.lightbox-title');
+    const lightboxDescription = document.querySelector('.lightbox-description');
+    const lightboxCounter = document.querySelector('.lightbox-counter');
+    const closeBtn = document.querySelector('.lightbox-close');
+    const prevBtn = document.querySelector('.lightbox-prev');
+    const nextBtn = document.querySelector('.lightbox-next');
+    let currentIndex = 0;
+
+    galleryItemsAll.forEach((item, index) => {
+      item.addEventListener('click', () => {
+        currentIndex = index;
+        openLightbox();
+      });
+    });
+
+    function openLightbox() {
+      const item = galleryItemsAll[currentIndex];
+      const title = item.getAttribute('data-title');
+      const description = item.getAttribute('data-description');
+
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      lightboxMedia.innerHTML = '';
+
+      const image = item.querySelector('img');
+      const video = item.querySelector('video');
+
+      if (image) {
+        const newImg = document.createElement('img');
+        newImg.src = image.src;
+        newImg.alt = image.alt;
+        lightboxMedia.appendChild(newImg);
+      } else if (video) {
+        const newVideo = document.createElement('video');
+        newVideo.controls = true;
+        newVideo.autoplay = true;
+        const source = document.createElement('source');
+        source.src = video.querySelector('source').src;
+        source.type = 'video/mp4';
+        newVideo.appendChild(source);
+        lightboxMedia.appendChild(newVideo);
+      }
+
+      lightboxTitle.textContent = title;
+      lightboxDescription.textContent = description;
+      lightboxCounter.textContent = `${currentIndex + 1} / ${galleryItemsAll.length}`;
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+      const activeVideo = lightboxMedia.querySelector('video');
+      if (activeVideo) activeVideo.pause();
+    }
+
+    closeBtn.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (event) => {
+      if (event.target === lightbox) closeLightbox();
+    });
+
+    prevBtn.addEventListener('click', (event) => {
+      event.stopPropagation();
+      currentIndex = (currentIndex - 1 + galleryItemsAll.length) % galleryItemsAll.length;
+      openLightbox();
+    });
+
+    nextBtn.addEventListener('click', (event) => {
+      event.stopPropagation();
+      currentIndex = (currentIndex + 1) % galleryItemsAll.length;
+      openLightbox();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && navMenu.classList.contains('active')) {
+        setMenuState(false);
+      }
+      if (!lightbox.classList.contains('active')) return;
+      if (event.key === 'Escape') closeLightbox();
+      if (event.key === 'ArrowLeft') {
+        currentIndex = (currentIndex - 1 + galleryItemsAll.length) % galleryItemsAll.length;
+        openLightbox();
+      }
+      if (event.key === 'ArrowRight') {
+        currentIndex = (currentIndex + 1) % galleryItemsAll.length;
+        openLightbox();
+      }
+    });
+
+    document.querySelectorAll('.faq-question').forEach((button) => {
+      button.addEventListener('click', () => {
+        const faqItem = button.parentElement;
+        const isOpen = faqItem.classList.contains('active');
+
+        document.querySelectorAll('.faq-item').forEach((item) => {
+          item.classList.remove('active');
+          item.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+        });
+
+        if (!isOpen) {
+          faqItem.classList.add('active');
+          button.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    const reviewTrack = document.querySelector('.review-track');
+    if (reviewTrack && !reviewTrack.dataset.duplicated) {
+      reviewTrack.innerHTML += reviewTrack.innerHTML;
+      reviewTrack.dataset.duplicated = 'true';
+    }
+  </script>
+</body>
+</html>
